@@ -9,9 +9,6 @@
   },
   "author": "Ibrahim Cesar <email@ibrahimcesar.com> (https://twitter.com/ibrahimcesar)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ibrahimcesar/aws-amplify-ssr/issues"
-  },
   "homepage": "https://aws-ssr-pokemon.ibrahimcesar.cloud/",
   "keywords": [
     "AWS",
