@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import mountains from '/public/og.png'
 
-//custom page showing images
+//custom page showing images with encrypt s3 bucket
 const Fill = () => (
   <div>
     <div style={{ position: 'relative', width: '300px', height: '500px' }}>
