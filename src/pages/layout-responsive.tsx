@@ -1,10 +1,8 @@
 import Image from 'next/image'
-import ViewSource from '../components/view-source'
 import mountains from '../public/og.png'
 
 const Responsive = () => (
   <div>
-    <ViewSource pathname="pages/layout-responsive.tsx" />
     <h1>Image Component With Layout Responsive</h1>
     <Image
       alt="Mountains"
