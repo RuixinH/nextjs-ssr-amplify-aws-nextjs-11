@@ -1,17 +1,20 @@
 import Image from 'next/image'
-import mountains from '/public/og.png'
+import localpic from '/public/og.png'
 
-const Responsive = () => (
-  <div>
-    <h1>Image Component With Layout Responsive</h1>
-    <Image
-      alt="Mountains"
-      src={mountains}
-      layout="responsive"
-      width={700}
-      height={475}
-    />
-  </div>
-)
-
+function Home() {
+  return (
+    <>
+      <h1>My Homepage</h1>
+      <Image
+        src={localpic}
+        alt="Picture of the author"
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
+      <p>Welcome to my homepage!</p>
+    </>
+  )
+}
 export default Responsive
