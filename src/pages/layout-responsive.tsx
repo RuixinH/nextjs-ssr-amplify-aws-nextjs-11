@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import mountains from '../public/og.png'
+import mountains from '/public/og.png'
 
 const Responsive = () => (
   <div>
